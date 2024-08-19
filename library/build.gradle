@@ -1,17 +1,17 @@
 apply plugin: 'com.android.library'
-apply from: rootProject.file('release-bintray.gradle')
 
 android {
-    compileSdkVersion rootProject.ext.compileSdkVersion
+    compileSdk rootProject.ext.compileSdkVersion
     buildToolsVersion rootProject.ext.buildToolsVersion
 
     defaultConfig {
         minSdkVersion 16
         targetSdkVersion rootProject.ext.targetSdkVersion
     }
+    namespace 'com.yarolegovich.slidingrootnav'
 }
 
 dependencies {
-    implementation deps.annotations
-    implementation deps.androidxCompat
+    implementation rootProject.ext.deps.annotations
+    implementation rootProject.ext.deps.androidxCompat
 }
