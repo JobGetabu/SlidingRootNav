@@ -8,7 +8,7 @@ The library is a DrawerLayout-like ViewGroup, where a "drawer" is hidden under t
 Add this into your dependencies block.
 
 ```
-implementation 'com.github.JobGetabu:SlidingRootNav:v2.0.0'
+implementation 'com.github.JobGetabu:SlidingRootNav:v2.0.2'
 ```
 ## Sample
 Please see the [sample app](sample/src/main/java/com/yarolegovich/slidingrootnav/sample) for a library usage example.
