@@ -6,6 +6,7 @@ The library is a DrawerLayout-like ViewGroup, where a "drawer" is hidden under t
 
 ## Gradle 
 Add this into your dependencies block.
+
 ```
 implementation 'com.github.JobGetabu:SlidingRootNav:v2.0.0'
 ```
